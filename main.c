@@ -2,9 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Danilo Barbosa 2211700 3WA */
-/* João Henrique  2210993 3WA */
-
 int contaBytes_UTF8(unsigned char primeiro_byte) {
   if ((primeiro_byte & 0x80) == 0) {
     // Início com "0" um caractere de 1 byte
